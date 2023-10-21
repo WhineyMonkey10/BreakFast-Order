@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Set up MongoDB connection
-mongoose.connect("uri", {
+mongoose.connect("", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
